@@ -17,7 +17,7 @@ specificationVersion: '0.20'
 
 created: '2026-09-24'
 
-modified: '2026-09-24'
+modified: '2026-10-06'
 
 tags:
 - Private Markets
@@ -35,6 +35,8 @@ maintainers:
   email: info@apis.io
 
 common:
+- url: https://www.altoira.com/insights
+  type: Blog
 - type: LLMsTxt
   url: llms/alto-llms.txt
 - type: Plans
