@@ -17,3 +17,23 @@ plans:
   price: 100
   description: Quarterly account fee for total invested capital $30,000.00+
 docs: https://www.altoira.com/pricing
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units: []
+  plans:
+  - name: Alto IRA Account Fee (up to $29,999.99 invested)
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: Alto IRA Account Fee (over $30,000 invested)
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
